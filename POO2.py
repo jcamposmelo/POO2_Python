@@ -12,7 +12,7 @@ class Circulo:
         perimetro = 2 * math.pi * self.raio
         return perimetro
 
-# Criando uma instância da classe Circulo
+# Criando uma instância da classe Circulo para o cálculo da área
 circulo1 = Circulo(5)
 area = circulo1.calcular_area()
 perimetro = circulo1.calcular_perimetro()
